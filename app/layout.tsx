@@ -1,9 +1,8 @@
 import './globals.css'
-import type { Metadata } from 'next'
 
-export const metadata: Metadata = {
-  title: 'Study Map - Explore Masters in Finance Worldwide',
-  description: 'Interactive map to discover and compare Masters in Finance programs from top universities around the world.',
+export const metadata = {
+  title: 'Study Map - Masters in Finance',
+  description: 'Find your perfect Masters in Finance program',
 }
 
 export default function RootLayout({
@@ -13,9 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   )
 }
