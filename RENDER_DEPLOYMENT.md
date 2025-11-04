@@ -18,9 +18,13 @@ git push origin main
 ### 3. Configuration du service
 - **Name**: `study-map`
 - **Environment**: `Node`
+- **Region**: `Frankfurt` (ou le plus proche de vous)
+- **Branch**: `main`
 - **Build Command**: `npm install && npm run build`
 - **Start Command**: `npm start`
 - **Plan**: Free (pour commencer)
+
+> **Note**: Render détectera automatiquement le fichier `render.yaml` et utilisera ces paramètres
 
 ### 4. Variables d'environnement
 Ajouter dans l'onglet "Environment":
